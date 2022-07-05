@@ -5,8 +5,9 @@
 }
 
 body{
-    height: 35%;
-    min-height: 340px;
+    background-color: #1d2630;
+    height: 35%;;
+    width: 540px;
     position: absolute;
     margin: auto;
     top: 50px;
