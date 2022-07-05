@@ -21,8 +21,7 @@ function () {
 
         var tasks = document.querySelector('#taskname');
 
-        for (var i = 0; i < tasks.length; i+
-        +) {
+        for (var i = 0; i < tasks.length; i++) {
             tasks[i].onclick = function (){
                 this.classList.toggle('completed');
             }
