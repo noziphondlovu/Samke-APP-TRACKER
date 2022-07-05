@@ -13,7 +13,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: #fafafa;
+    background-color: white;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     width: 460px;
     height: 680px;
@@ -34,10 +34,10 @@ input{
 }
 button{
     padding: 7px 14px;
-    background-color: #00b0ff;
+    background-color: #e7edef;
     border: none;
     border-radius: 4px;
-    color: #fafafa;
+    color: #bd9d9d;
 
 }
 .element-list{
@@ -51,7 +51,7 @@ ul{
 li{
     list-style: none;
     padding: 10px 5px;
-    background-color: #fff;
+    background-color: rgb(129, 115, 115);
     margin: 12px 0;
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     border-radius: 3px;
@@ -62,7 +62,7 @@ button:hover{
 }
 
 li:hover{
-    background-color: #e0e0e0;
+    background-color: #443232;
 }
 
 .checked{
