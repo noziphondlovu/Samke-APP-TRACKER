@@ -8,7 +8,7 @@ function () {
     else {
         document.querySelector('#tasks').innerHTML
         += '<div class= "task">'
-       
+       var state
         
         var current_tasks = document.
         querySelector('.delete');
