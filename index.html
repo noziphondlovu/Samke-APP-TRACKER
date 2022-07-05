@@ -44,7 +44,18 @@
 
                     for (var i = 0; i < current_tasks.length; i+
                     +) {
-                        current_tasks[i]
+                        current_tasks[i].onclick = function (){
+                            this.parentNode.remove();
+                        }
+                    }
+
+                    var tasks = document.querySelector('#taskname');
+
+                    for (var i = 0; i < tasks.length; i+
+                    +) {
+                        tasks[i].onclick = function (){
+                            this.classList.toggle('completed');
+                        }
                     }
                 }
             }
