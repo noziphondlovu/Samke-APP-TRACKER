@@ -48,14 +48,7 @@ ul{
     padding: 15px;
    
 }
-li{
-    list-style: none;
-    padding: 10px 5px;
-    background-color: rgb(129, 115, 115);
-    margin: 12px 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,.16);
-    border-radius: 3px;
-    transition: .4s;
+
 }
 button:hover{
     background-color: #1565c0;
