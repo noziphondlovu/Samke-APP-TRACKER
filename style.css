@@ -49,16 +49,10 @@ ul{
    
 }
 
-}
+
 button:hover{
     background-color: #1565c0;
 }
 
-li:hover{
-    background-color: #443232;
-}
 
-.checked{
-    text-decoration: line-through;
-    background-color: #e0e0e0;
-}
+
