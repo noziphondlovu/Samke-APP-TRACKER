@@ -8,11 +8,7 @@ function () {
     else {
         document.querySelector('#tasks').innerHTML
         += '<div class= "task">'
-        <span id  = "taskname">
-        ${document.querySelector('#newtask input').
-        value} <span>
-        <button class="delete">X</button>
-        </div>
+       
         
         var current_tasks = document.
         querySelector('.delete');
