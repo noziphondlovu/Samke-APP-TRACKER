@@ -29,11 +29,29 @@
                     alert("Please Enter a Task");
                 }
                 else {
-                    document.querySelector('#tasks').innerHTML = +2;
+                    document.querySelector('#tasks').innerHTML
+                    += '<div class="task">
+                    <span id="taskname">
+                    ${document.querySelector('#newtask input').
+                    value}
+                    </span>
+                    <button class="delete">X</button>
+                    </div>
+                    ';
+
+                    var current_tasks = document.
+                    querySelector('.delete');
+
+                    for (var i = 0; i < current_tasks.length; i+
+                    +) {
+                        current_tasks[i]
+                    }
                 }
             }
 
     </script>
+
+    
 
 </body>
 

@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #1d2630;
+    background-color: #0b79f7;
     height: 35%;;
     width: 540px;
     position: absolute;
@@ -21,7 +21,7 @@ body{
 #newtask{
     position: relative;
     padding: 30px 15px;
-    background: #fff;
+    background: rgb(192, 179, 179);
     border-radius: 5px;
     box-shadow: 0 15px 30px;
 }
