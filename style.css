@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #0b79f7;
+    background-color: #b4ceec;
     height: 35%;;
     width: 540px;
     position: absolute;
@@ -94,7 +94,7 @@ body{
     border: none;
     background: #19A68C;
     height: 100%;
-    width: 400px;
+    width: 45px;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
