@@ -4,7 +4,7 @@ const list = document.querySelector("#list");
 var element = document.getElementsByTagName('li');
 
 
-btn.onclick = function(){
+between.onclick = function(){
     
     var text = input.value;
     if(text ==''){
