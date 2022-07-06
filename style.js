@@ -1,7 +1,7 @@
 const input = document.querySelector("#add");
 const  btn = document.querySelector("#btn");
 const list = document.querySelector("#list");
-var el = document.getElementsByTagName('li');
+var element = document.getElementsByTagName('li');
 
 // this function will allow us to add elements when we click the button
 btn.onclick = function(){
