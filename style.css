@@ -12,7 +12,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background-color: rgb(0, 255, 162);
+    background-color: rgb(253, 226, 253);
     box-shadow: 0 2px 8px rgba(0,0,0,.16);
     width: 460px;
     height: 680px;
