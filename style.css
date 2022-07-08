@@ -1,5 +1,5 @@
 :root {
-    --box-shadow: white;
+    --box-shadow: 0px 1px 4px 1px rgba(199,199,199,1);
     --income: rgb(0, 81, 128); 
     --expense: red;
 }
@@ -78,7 +78,7 @@ body {
 
 #transaction li span {
     display: inline-block;
-    color: white;
+    color: yellowgreen;
     padding: 5px;
     border-radius: 3px;
     margin-right: 5px;
