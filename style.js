@@ -12,7 +12,7 @@ between.onclick = function(){
     }else{
         li = document.createElement('li');
     li.innerHTML = text;
-    list.insertBefore(li,list.childNodes[0]);
+    list.insertBefore(li,list.childNodes[2]);
     input.value = ''
     }
     
