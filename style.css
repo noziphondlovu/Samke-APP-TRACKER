@@ -4,7 +4,7 @@
     outline: 0;
 }
 body{
-    background-color:rgb(0, 102, 128);
+    background-color:rgb(193, 207, 210);
 }
 
 .container{
@@ -38,7 +38,7 @@ button{
     background-color: #e7edef;
     border: none;
     border-radius: 4px;
-    color: #bd9d9d;
+    color: #1811e4;
 
 }
 .element-list{

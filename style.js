@@ -8,7 +8,7 @@ between.onclick = function(){
     
     var text = input.value;
     if(text ==''){
-        alert('you must write something');
+        alert('you write something');
     }else{
         li = document.createElement('li');
     li.innerHTML = text;
