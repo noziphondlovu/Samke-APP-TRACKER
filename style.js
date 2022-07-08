@@ -12,14 +12,14 @@ between.onclick = function(){
     }else{
         li = document.createElement('li');
     li.innerHTML = text;
-    list.insertBefore(li,list.childNodes[2]);
+    list.insertBefore(li,list.childNodes[0]);
     input.value = ''
     }
     
 }
 
 
-list.onclick = function(ev){
+list.onclick = function(alert){
     if(ev.target.tagName == 'LI'){
          ev.target.classList.toggle('checked');
     }
