@@ -1,6 +1,6 @@
 :root {
     --box-shadow: 0px 1px 4px 1px rgba(199,199,199,1);
-    --income: green; 
+    --income: rgb(0, 81, 128); 
     --expense: red;
 }
 
@@ -91,9 +91,6 @@ body {
     background-color: var(--expense);
 }
 
-#transaction li button {
-    padding: 5px 10px 5px 10px;
-}
 
 .form-container {
     margin-top: 40px;
@@ -102,10 +99,6 @@ body {
 .form-container form {
     display: flex;
     flex-direction: column;
-}
-
-.form-container form label {
-    padding-bottom: 10px;
 }
 
 .form-container form input{
