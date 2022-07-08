@@ -1,32 +1,69 @@
 <!doctype html>
 <html>
     
-    <head>
-        <title>TRACKER</title>
+    <title> Expense Tracker</title>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:wght@500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+        <div class="app">
+            <h1>Expense Tracker</h1>
+
+        <div calss="balance-container">
+            <h2>Your Balance</h2>
+            <div id="balance">1000</div>
+        </div>
         
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <div class="container">
-            <h1>APP LIST TRACKER</h1>
-            
-            <div class="add-elements">
-                <input id="add" type="text" placeholder="add an element">
-                <button id="btn">Add</button>
+        <div class="cashflow-container">
+         <div class="income-container">
+            <h2>Income</h2>
+            <div id="income">1200</div>
+         </div>
+         <div class="expense-container"> 
+            <h2>Expense</h2>
+            <div id="expense">200</div>
+         </div>
+        </div>
+
+          <div class="transaction-container">
+            <h2>Transaction History</h2>
+            <ul id="transaction">
+                <li>
+                    Salary
+                    <div>
+                       <span class="income-amt">5000</span> 
+                       <button>
+                    </div>
+                </li>
                 
+                    Buy Grocery 
+                    <div>
+                        <span class="expense-amt">50</span> 
+                        <button>
+                     </div>
+                 </li>  
+                 
+                    Buy Guitar 
+                    <div>
+                        <span class="expense-amt">500</span> 
+                        <button>
+                     </div>
+            
+            
+          </div>
+           
+          <div class="form-container">
+              <h2>Add new </h2>
+               <form onsubmit="return false">
+                <label for="name">Name</label>
+                <input id="name" type="text">
+                <label for="amount">Amount</label>
+                <input id="amount" type="number"> 
+                <button id="incomeBtn">Add Income</button>
+                <button id="expenseBtn">Add Expense</button>
+               </form>
             </div>
 
-            <br><br>
-            
-            <br><br>
-            
-            <div class="element-list">
-                <ul id="list">
-                    
-            </div>
-            <button id="number">element-list</button>
-        </div>
         
         <script src="style.js"></script>
     </body>
